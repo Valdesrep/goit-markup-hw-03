@@ -155,7 +155,7 @@ padding-bottom: 82px;}
   letter-spacing: 0.03em;
 }
 /* Стиль секции Наша команда */
-.section .team {
+.section.team {
   background-color: #f5f4fa;
 }
 .team .team-img{
