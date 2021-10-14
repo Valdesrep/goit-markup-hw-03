@@ -91,7 +91,6 @@ ul {
 .main-nav {
   display: flex;
   align-items: center;
-
 }
 .container-header {
   display: flex;
@@ -102,9 +101,6 @@ ul {
 }
 .nav-list .item:not(:last-child) {
   margin-right: 50px;
-}
-/* .nav-list .item:last-child {
-  margin-right: 331px; */
 }
 .nav-link:hover,
 .nav-link:focus {
@@ -134,10 +130,13 @@ ul {
 .contacts-link:focus {
   color: var(--accent-color);
 }
-/* Стиль героя */
+/* Стиль героя*/
 .section .hero {
   padding-top: 200;
   padding-bottom: 200;
+}
+.hero {
+  text-align: center;
 }
 .hero-button {
   color: var(--primary-white-color);
@@ -169,7 +168,10 @@ ul {
   margin-bottom: 30px;
 }
 /* Стиль скуции Особености */
-
+.features.list {
+  display: flex;
+}
+.features .item:not(:last-child){margin-right: 30px;}
 .features .title {
   color: var(--title-text-color);
   font-family: Roboto, sans-serif;
