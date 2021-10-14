@@ -91,21 +91,20 @@ ul {
 .main-nav {
   display: flex;
   align-items: center;
+
 }
 .container-header {
   display: flex;
 }
 .nav-list {
   display: flex;
+  margin-left: 93px;
 }
 .nav-list .item:not(:last-child) {
   margin-right: 50px;
 }
-.nav-list .item:first-child {
-  margin-left: 93px;
-}
-.nav-list .item:last-child {
-  margin-right: 331px;
+/* .nav-list .item:last-child {
+  margin-right: 331px; */
 }
 .nav-link:hover,
 .nav-link:focus {
@@ -117,6 +116,7 @@ ul {
 .contacts.heder {
   display: flex;
   align-items: center;
+  margin-left: auto;
 }
 .contacts .item:not(:last-child) {
   margin-right: 50px;
