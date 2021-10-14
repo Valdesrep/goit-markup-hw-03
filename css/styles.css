@@ -320,6 +320,8 @@ section.hero {
   padding-bottom: 60px;
   padding-top: 60px;
 }
+.logo-footer{display: inline-block;
+padding-bottom: 20px;}
 .footer .contacts-link {
   color: var(--primary-white-color);
   font-family: Roboto, sans-serif;
