@@ -233,9 +233,6 @@ section.hero {
   padding-top: 30px;
   padding-bottom: 30px;
 }
-/* .team .team-img {
-  margin-bottom: 30px;
-} */
 .team .title {
   color: var(--title-text-color);
   font-family: Roboto, sans-serif;
