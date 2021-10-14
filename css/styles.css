@@ -24,9 +24,9 @@ ul {
   margin: 0;
   padding: 0;
 }
-.container{
-    width: 1230px;
-  /* outline:solid coral; */
+.container {
+  width: 1230px;
+  /* border: solid violet; */
   padding-left: 15px;
   padding-right: 15px;
   margin-left: auto;
@@ -75,6 +75,9 @@ ul {
 .logo-web.footer {
   color: var(--primary-white-color);
 }
+.section {
+  padding-bottom: 94px;
+}
 /* Стиль хедер */
 .main-nav .nav-link {
   color: var(--title-text-color);
@@ -85,12 +88,25 @@ ul {
   letter-spacing: 0.02em;
   text-decoration: none;
 }
+.container-header{display: flex;}
+.nav-list {
+  display: flex;
+}
+.nav-list .item:not(:last-child) {
+  margin-right: 50px;
+}
 .nav-link:hover,
 .nav-link:focus {
   color: var(--accent-color);
 }
 .main-nav .nav-link.current {
   color: var(--accent-color);
+}
+.contacts.heder {
+  display: flex;
+}
+.contacts .item:not(:last-child) {
+  margin-right: 50px;
 }
 .contacts .contacts-link {
   color: var(--primary-text-color);
@@ -106,9 +122,9 @@ ul {
   color: var(--accent-color);
 }
 /* Стиль героя */
-.section .hero{
-    padding-top: 200;
-    padding-bottom: 200;
+.section .hero {
+  padding-top: 200;
+  padding-bottom: 200;
 }
 .hero-button {
   color: var(--primary-white-color);
@@ -119,6 +135,9 @@ ul {
   line-height: 1.87;
   letter-spacing: 0.06em;
   cursor: pointer;
+  border: 1px;
+  border-radius: 4px;
+  padding: 10px 32px;
 }
 .hero-button:hover,
 .hero-button:focus {
@@ -137,8 +156,7 @@ ul {
   margin-bottom: 30px;
 }
 /* Стиль скуции Особености */
-.section{
-padding-bottom: 82px;}
+
 .features .title {
   color: var(--title-text-color);
   font-family: Roboto, sans-serif;
@@ -158,8 +176,8 @@ padding-bottom: 82px;}
 .section.team {
   background-color: #f5f4fa;
 }
-.team .team-img{
-    margin-bottom: 30px;
+.team .team-img {
+  margin-bottom: 30px;
 }
 .team .title {
   color: var(--title-text-color);
@@ -185,6 +203,12 @@ padding-bottom: 82px;}
   line-height: 1.62;
   letter-spacing: 0.03em;
   cursor: pointer;
+  border: 1px;
+  border-radius: 4px;
+  padding: 6px 22px;
+}
+.nav-portfolio {
+  margin-bottom: 50px;
 }
 .nav-portfolio .buttons:hover,
 .nav-portfolio .buttons:focus {
@@ -206,8 +230,14 @@ padding-bottom: 82px;}
   letter-spacing: 0.03em;
 }
 
+.section.portfolio {
+  padding-top: 94px;
+}
+
 .footer {
   background-color: #2f303a;
+  padding-bottom: 60px;
+  padding-top: 60px;
 }
 .footer .contacts-link {
   color: var(--primary-white-color);

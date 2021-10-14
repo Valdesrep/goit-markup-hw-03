@@ -10,41 +10,44 @@
     <link
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.css" integrity="sha512-Y0MM+V6ymRKN2zStTqzQ227DWhhp4Mzdo6gnlRnuaNCbc+YN/ZH0sBCLTM4M0oSy9c9VKiCvd4Jk44aCLrNS5Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.css" integrity="sha512-Y0MM+V6ymRKN2zStTqzQ227DWhhp4Mzdo6gnlRnuaNCbc+YN/ZH0sBCLTM4M0oSy9c9VKiCvd4Jk44aCLrNS5Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
     <!--[Хедер]-->
     <header>
+      <div class="container">
       <!--Главная навигация-->
       <nav class="main-nav">
         <a href="./index.html" class="logo"
           >Web<span class="logo-web">Studio</span>
         </a>
-        <ul class="list">
-          <li><a href="./index.html" class="nav-link">Студия</a></li>
-          <li><a href="./portfolio.html" class="nav-link current">Портфолио</a></li>
-          <li><a href="" class="nav-link">Контакты</a></li>
+        <ul class=" nav-list list">
+          <li class="item"><a href="./index.html" class="nav-link ">Студия</a></li>
+          <li class="item"><a href="./portfolio.html" class="nav-link current">Портфолио</a></li>
+          <li class="item"><a href="" class="nav-link">Контакты</a></li>
         </ul>
       </nav>
-      <ul class="contacts list">
-        <li>
+      <ul class="contacts heder list">
+        <li class="item">
           <a href="mailto:info@devstudio.com" class="contacts-link"
             >info@devstudio.com</a
           >
         </li>
-        <li>
+        <li class="item">
           <a href="tel:+380961111111" class="contacts-link"
             >+38 096 111 11 11</a
           >
         </li>
       </ul>
+    </div>
     </header>
     <!--Основной контент страницы Портфолио-->
     <main>
-      <section class="section">
-        <h1 class="section-title">Страница Портфолио</h2>
+      <section class="section portfolio">
+        <div class="container">
+        <h1 class="section-title visually-hidden">Страница Портфолио</h2>
         <ul class="nav-portfolio list">
           <li><button type="button" class="buttons">Все</button></li>
           <li><button type="button" class="buttons">Веб-сайты</button></li>
@@ -144,10 +147,12 @@
             <p class="text">Приложение</p>
           </li>
         </ul>
+      </div>
       </section>
     </main>
     <!--Футер -->
     <footer class="footer">
+      <div class="container">
       <a href="./index.html" class="logo"
       >Web<span class="logo-web footer">Studio</span>
       </a>
@@ -168,6 +173,7 @@
           </li>
         </ul>
       </address>
+      </div>
     </footer>
   </body>
 </html>
