@@ -76,7 +76,7 @@ img {
 .logo-web {
   color: var(--title-text-color);
 }
-.logo-web.footer {
+.logo-web-footer {
   color: var(--primary-white-color);
 }
 /* Стиль хедер */
@@ -107,7 +107,7 @@ img {
   display: flex;
   margin-left: 93px;
 }
-.nav-list .item:not(:last-child) {
+.nav-list .nav-list-item:not(:last-child) {
   margin-right: 50px;
 }
 .nav-link:hover,
@@ -122,7 +122,7 @@ img {
   align-items: center;
   margin-left: auto;
 }
-.contacts .item:not(:last-child) {
+.contacts-item:not(:last-child) {
   margin-right: 50px;
 }
 .contacts .contacts-link {
@@ -193,7 +193,7 @@ img {
   margin-right: 30px;
 }
 
-.features .title {
+.features-title {
   color: var(--title-text-color);
   font-family: Roboto, sans-serif;
   font-weight: 700;
@@ -203,7 +203,7 @@ img {
   text-transform: uppercase;
   padding-bottom: 10px;
 }
-.features .text {
+.features-text {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -334,7 +334,7 @@ img {
 }
 .logo-footer {
   display: inline-block;
-  padding-bottom: 20px;
+  margin-bottom: 20px;
 }
 .footer .contacts-link {
   color: var(--primary-white-color);
