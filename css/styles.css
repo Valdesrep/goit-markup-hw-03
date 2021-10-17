@@ -189,10 +189,9 @@ img {
 .features-item {
   width: 270px;
 }
+/* /// */
 .features-item:not(:last-child) {
-  margin-right: 30px;
-}
-
+  margin-right}
 .features-title {
   color: var(--title-text-color);
   font-family: Roboto, sans-serif;
